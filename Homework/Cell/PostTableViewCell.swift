@@ -8,7 +8,11 @@
 import UIKit
 
 class PostTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var profileImageView: UIImageView!
+    @IBOutlet weak var post1ImageView: UIImageView!
+    @IBOutlet weak var post2ImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
